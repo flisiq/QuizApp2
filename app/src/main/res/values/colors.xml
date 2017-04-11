@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#b184dae6</color>
+    <color name="titleCardBckgrnd">#955c6bc0</color>
+    <color name="descCardBckgrnd">#b1ffffff</color>
+    <color name="scrollBckground">#51000000</color>
+</resources>

@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/provheart"
+    tools:context="com.example.android.quizapp.ProverbsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/small_padding"
+            app:cardBackgroundColor="@color/titleCardBckgrnd"
+            app:cardCornerRadius="@dimen/large_elevation"
+            app:cardElevation="@dimen/large_elevation">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center"
+                android:padding="@dimen/small_padding"
+                android:text="@string/proverbs_title_card_text"
+                android:textSize="@dimen/title_card_font"
+                android:textStyle="bold"
+                tools:ignore="UnusedAttribute" />
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/small_padding"
+            app:cardBackgroundColor="@color/descCardBckgrnd"
+            app:cardCornerRadius="@dimen/medium_elevation"
+            app:cardElevation="@dimen/medium_elevation">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:padding="@dimen/medium_padding"
+                android:text="@string/proverbs_desc_cardText"
+                android:textAlignment="center"
+                android:textSize="@dimen/desc_card_font" />
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/medium_padding"
+            android:layout_marginTop="@dimen/medium_padding"
+            android:background="@color/scrollBckground"
+            android:padding="@dimen/small_padding"
+            android:scrollbarStyle="insideOverlay">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="@dimen/small_padding"
+                    android:layout_marginLeft="@dimen/small_padding"
+                    android:layout_marginRight="@dimen/small_padding"
+                    android:layout_marginStart="@dimen/small_padding"
+                    app:cardBackgroundColor="@color/descCardBckgrnd"
+                    app:cardCornerRadius="@dimen/small_padding"
+                    app:cardElevation="@dimen/small_elevation">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/small_padding"
+                            android:text="@string/fill_the_gap"
+                            android:textSize="@dimen/desc_card_font"
+                            android:textStyle="bold" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="@dimen/small_padding"
+                            android:layout_marginLeft="@dimen/medium_padding"
+                            android:layout_marginRight="@dimen/medium_padding"
+                            android:layout_marginTop="@dimen/small_padding"
+                            android:background="@android:color/darker_gray" />
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="@dimen/medium_padding">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:paddingLeft="@dimen/medium_padding"
+                                    android:text="@string/proverb1a_pt1"
+                                    android:textStyle="italic" />
+
+                                <EditText
+                                    android:id="@+id/proverb1a"
+                                    android:layout_width="60dp"
+                                    android:layout_height="wrap_content"
+                                    android:hint="" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/proverb1a_pt2"
+                                    android:textStyle="italic" />
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:paddingLeft="@dimen/medium_padding"
+                                    android:text="@string/proverb1b_pt1"
+                                    android:textStyle="italic" />
+
+                                <EditText
+                                    android:id="@+id/proverb1b"
+                                    android:layout_width="60dp"
+                                    android:layout_height="wrap_content"
+                                    android:hint="" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/proverb1b_pt2"
+                                    android:textStyle="italic" />
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:paddingLeft="@dimen/medium_padding"
+                                    android:text="@string/proverb1c_pt1"
+                                    android:textStyle="italic" />
+
+                                <EditText
+                                    android:id="@+id/proverb1c"
+                                    android:layout_width="60dp"
+                                    android:layout_height="wrap_content"
+                                    android:hint="" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/proverb1c_pt2"
+                                    android:textStyle="italic" />
+
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="@dimen/small_padding"
+                    android:layout_marginLeft="@dimen/small_padding"
+                    android:layout_marginRight="@dimen/small_padding"
+                    android:layout_marginStart="@dimen/small_padding"
+                    app:cardBackgroundColor="@color/descCardBckgrnd"
+                    app:cardCornerRadius="@dimen/small_padding"
+                    app:cardElevation="@dimen/small_elevation">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/small_padding"
+                            android:text="@string/_2_are_those_proverbs_correct"
+                            android:textSize="@dimen/desc_card_font"
+                            android:textStyle="bold" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="@dimen/small_padding"
+                            android:layout_marginLeft="@dimen/medium_padding"
+                            android:layout_marginRight="@dimen/medium_padding"
+                            android:layout_marginTop="@dimen/small_padding"
+                            android:background="@android:color/darker_gray" />
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="@dimen/medium_padding">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:padding="@dimen/medium_padding"
+                                    android:text="@string/proverbs2a"
+                                    android:textStyle="italic" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <RadioButton
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:padding="@dimen/small_padding"
+                                        android:text="@string/correct"
+                                        android:textColor="@android:color/secondary_text_light"
+                                        android:textStyle="italic" />
+
+                                    <RadioButton
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:padding="@dimen/small_padding"
+                                        android:text="@string/incorrect"
+                                        android:textColor="@android:color/secondary_text_light"
+                                        android:textStyle="italic" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:padding="@dimen/medium_padding"
+                                    android:text="@string/proverbs2b"
+                                    android:textStyle="italic" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <RadioButton
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:padding="@dimen/small_padding"
+                                        android:text="@string/correct"
+                                        android:textColor="@android:color/secondary_text_light"
+                                        android:textStyle="italic" />
+
+                                    <RadioButton
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:padding="@dimen/small_padding"
+                                        android:text="@string/incorrect"
+                                        android:textColor="@android:color/secondary_text_light"
+                                        android:textStyle="italic" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:padding="@dimen/medium_padding"
+                                    android:text="@string/proverb2c"
+                                    android:textStyle="italic" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <RadioButton
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:padding="@dimen/small_padding"
+                                        android:text="@string/correct"
+                                        android:textColor="@android:color/secondary_text_light"
+                                        android:textStyle="italic" />
+
+                                    <RadioButton
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:padding="@dimen/small_padding"
+                                        android:text="@string/incorrect"
+                                        android:textColor="@android:color/secondary_text_light"
+                                        android:textStyle="italic" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="@dimen/small_padding"
+                    android:layout_marginLeft="@dimen/small_padding"
+                    android:layout_marginRight="@dimen/small_padding"
+                    android:layout_marginStart="@dimen/small_padding"
+                    app:cardBackgroundColor="@color/descCardBckgrnd"
+                    app:cardCornerRadius="@dimen/small_padding"
+                    app:cardElevation="@dimen/small_elevation">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/small_padding"
+                            android:text="3. Pick every matching proverb to a definition:"
+                            android:textSize="@dimen/desc_card_font"
+                            android:textStyle="bold" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="@dimen/small_padding"
+                            android:layout_marginLeft="@dimen/medium_padding"
+                            android:layout_marginRight="@dimen/medium_padding"
+                            android:layout_marginTop="@dimen/small_padding"
+                            android:background="@android:color/darker_gray" />
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="@dimen/medium_padding">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:padding="@dimen/medium_padding"
+                                    android:text="@string/a_nothing_is_infinite"
+                                    android:textStyle="italic" />
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent">
+
+                                    <CheckBox
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:padding="@dimen/small_padding"
+                                        android:text="@string/proverb3a1"
+                                        android:textColor="@android:color/secondary_text_light"
+                                        android:textStyle="italic" />
+
+                                    <CheckBox
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:padding="@dimen/small_padding"
+                                        android:text="@string/proverb3a2"
+                                        android:textColor="@android:color/secondary_text_light"
+                                        android:textStyle="italic" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <CheckBox
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:padding="@dimen/small_padding"
+                                        android:text="@string/proverbs3a3"
+                                        android:textColor="@android:color/secondary_text_light"
+                                        android:textStyle="italic" />
+
+                                    <CheckBox
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:padding="@dimen/small_padding"
+                                        android:text="@string/proverbs3a4"
+                                        android:textColor="@android:color/secondary_text_light"
+                                        android:textStyle="italic" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:padding="@dimen/medium_padding"
+                                    android:text="b) Don't complain."
+                                    android:textStyle="italic" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <CheckBox
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:padding="@dimen/small_padding"
+                                        android:text="One man's trash is another man's treasure."
+                                        android:textColor="@android:color/secondary_text_light"
+                                        android:textStyle="italic" />
+
+                                    <CheckBox
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:padding="@dimen/small_padding"
+                                        android:text="Don't bite the hand that feeds you."
+                                        android:textColor="@android:color/secondary_text_light"
+                                        android:textStyle="italic" />
+                                    <CheckBox
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:padding="@dimen/small_padding"
+                                        android:text="Don't bite the hand that feeds you."
+                                        android:textColor="@android:color/secondary_text_light"
+                                        android:textStyle="italic" />
+                                </LinearLayout>
+
+
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/small_padding"
+            app:cardBackgroundColor="@color/titleCardBckgrnd"
+            app:cardCornerRadius="@dimen/large_elevation"
+            app:cardElevation="@dimen/large_elevation">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/medium_padding"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:gravity="center_vertical|end"
+                    android:text="@string/score"
+                    android:textAllCaps="true"
+                    android:textSize="@dimen/title_card_font"
+                    android:textStyle="bold"
+                    tools:ignore="UnusedAttribute" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text=" 0"
+                    android:textAllCaps="true"
+                    android:textSize="@dimen/title_card_font"
+                    android:textStyle="bold"
+                    tools:ignore="UnusedAttribute" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>
+
+

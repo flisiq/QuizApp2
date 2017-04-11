@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="proverbs_desc_cardText">Here you can check your knowledge about English proverbs!   Let\'s start!</string>
+    <string name="proverbs_title_card_text">Welcome to \n Proverbs Quiz!</string>
+    <string name="score">score:</string>
+    <string name="fill_the_gap">1. Fill gaps in the proverbs:</string>
+    <string name="proverb1a_pt1">a) A friend in</string>
+    <string name="proverb1a_pt2">is a friend indeed.</string>
+    <string name="proverb1b_pt1">b) The</string>
+    <string name="proverb1b_pt2">is mightier than the sword.</string>
+    <string name="proverb1c_pt1">c) Birds of a feather flock</string>
+    <string name="proverb1c_pt2">.</string>
+    <string name="_2_are_those_proverbs_correct">2. Are those proverbs correct?</string>
+    <string name="proverbs2a">a) Two wrongs don\'t make it wrong.</string>
+    <string name="correct">correct!</string>
+    <string name="incorrect">incorrect!</string>
+    <string name="proverbs2b">b) The early bird catches the worm.</string>
+    <string name="proverb2c">c) A watched pot never boils.</string>
+    <string name="proverb3a1">Easy come, easy go.</string>
+    <string name="proverb3a2">All good things must come to an end.</string>
+    <string name="proverbs3a4">You can\'t judge a book by its cover.</string>
+    <string name="proverbs3a3">Too many cooks spoil the broth.</string>
+    <string name="a_nothing_is_infinite">proverb3a</string>
+</resources>
